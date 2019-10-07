@@ -1,0 +1,25 @@
+<h2>1</h2>
+<div class="form-group" [formGroup]="fGroup">
+  <label for="exampleInputEmail1">Name</label>
+  <input
+    formControlName="name"
+    type="name"
+    class="form-control"
+    id="exampleInputName1"
+    aria-describedby="nameHelp"
+    placeholder="Enter name"
+  />
+
+  <label for="exampleInputEmail1">Email</label>
+  <input
+    formControlName="email"
+    type="email"
+    class="form-control"
+    id="exampleInputEmail1"
+    placeholder="email"
+  />
+  <small id="emailHelp" class="form-text text-muted"
+    >We'll never share your email with anyone else.</small
+  >
+  <button class="btn btn-primary">SUBMIT</button>
+</div>
